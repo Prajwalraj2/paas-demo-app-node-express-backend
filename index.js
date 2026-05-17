@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Routes
 app.get("/", (req, res) => {
-  res.send("Hello from Express backend 🚀");
+  res.send("Hello from Express backend 🚀 Good Life");
 });
 
 app.get("/api/health", (req, res) => {
